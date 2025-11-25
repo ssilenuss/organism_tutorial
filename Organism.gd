@@ -54,7 +54,7 @@ func spawn_child()->void:
 	o.grid = self.grid
 	o.diet = self.diet
 	grid.organisms.add_child(o)
-	print("New Child Spawned!")
+
 	
 func _draw()->void:
 	draw_circle(Vector2.ZERO,size,species_id)
